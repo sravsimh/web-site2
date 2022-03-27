@@ -456,14 +456,16 @@ h6 {
 #hero .container .btn-dark {
     border-radius: 20px;
     border: 2px solid black;
-    color: rgb(255, 255, 255);
+    color: black;
     padding: 8px 35px;
-    background: transparent;
+    background: white;
     margin-top: 27px;
 }
 
 #hero .container .btn-dark:hover {
-    background: #010483;
+    background: transparent;
+    color: white;
+    border: 2px solid white;
 }
 
 #hero {
