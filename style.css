@@ -570,6 +570,12 @@ h6 {
     }
 }
 
+@media (max-width:320px) {
+    #hero h1 {
+        font-size: 32px;
+    }
+}
+
 @-webkit-keyframes up-down {
     0% {
         transform: translateY(10px);
