@@ -460,6 +460,7 @@ h6 {
     padding: 8px 35px;
     background: white;
     margin-top: 27px;
+    font-weight: bold;
 }
 
 #hero .container .btn-dark:hover {
