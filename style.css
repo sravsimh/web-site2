@@ -10,6 +10,10 @@
 # General
 --------------------------------------------------------------*/
 
+* {
+    font-family: 'Roboto', sans-serif!important;
+}
+
 body {
     font-family: "Open Sans", sans-serif;
     color: #444444;
@@ -210,7 +214,7 @@ h6 {
 .navbar a:focus {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    /* justify-content: space-between; */
     padding: 28px 0 10px 30px;
     font-size: 15px;
     font-weight: 500;
@@ -245,6 +249,11 @@ h6 {
 .navbar .active:before {
     visibility: visible;
     width: 25px;
+}
+
+a:hover:before,
+.navbar li:hover>a:before {
+    visibility: hidden;
 }
 
 .navbar a:hover,
@@ -390,6 +399,7 @@ h6 {
     padding: 10px 20px;
     font-size: 15px;
     color: #023047;
+    font-weight: 600;
 }
 
 .navbar-mobile a:hover,
@@ -421,6 +431,8 @@ h6 {
 
 .navbar-mobile .dropdown ul a {
     padding: 10px 20px;
+    font-weight: 600;
+    color: #023047;
 }
 
 .navbar-mobile .dropdown ul a i {
@@ -430,7 +442,7 @@ h6 {
 .navbar-mobile .dropdown ul a:hover,
 .navbar-mobile .dropdown ul .active:hover,
 .navbar-mobile .dropdown ul li:hover>a {
-    color: #1acc8d;
+    color: orangered;
 }
 
 .navbar-mobile .dropdown>.dropdown-active {
